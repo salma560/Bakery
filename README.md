@@ -2,10 +2,6 @@
 
 A modern, responsive landing page for **Family Bakery** — an artisan bakery website built with HTML, Tailwind CSS, and JavaScript.
 
-## Live Demo
-
-Open `index.html` in your browser, or visit the deployed site if GitHub Pages is enabled.
-
 ## Features
 
 - **Responsive design** — works on mobile, tablet, and desktop
@@ -42,33 +38,6 @@ Bakery/
 └── README.md
 ```
 
-## Getting Started
-
-### Option 1 — Open directly (no install)
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/salma560/Bakery.git
-   ```
-2. Open `index.html` in your browser.
-
-### Option 2 — Local dev server
-
-```bash
-npm install
-npm start
-```
-
-### Option 3 — Tailwind build (optional)
-
-If you prefer a compiled CSS file instead of the CDN:
-
-```bash
-npm install
-npm run dev    # watch mode
-npm run build  # production build
-```
-
 ## Sections
 
 | Section | Description |
@@ -85,6 +54,4 @@ npm run build  # production build
 
 **Salma** — [@salma560](https://github.com/salma560)
 
-## License
-
-This project is open source and available for educational purposes.
+.
