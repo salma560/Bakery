@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Alegreya", serif;
+  --font-sans: "Alegreya Sans", sans-serif;
+  --color-bakery-brown: #a67356;
+  --color-bakery-accent: #b1714d;
+  --color-bakery-cream: #e9e3db;
+  --color-bakery-dark: #303030;
+  --color-bakery-muted: #7c686d;
+}
+
+@layer utilities {
+  .hero-bg {
+    background-image:
+      linear-gradient(var(--color-bakery-brown), rgba(0, 0, 0, 0.5)),
+      url("../images/drew-coffman-1872.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
